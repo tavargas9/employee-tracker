@@ -13,4 +13,5 @@ const db = mysql.createConnection(
 
 // module.exports = db;
 
-// Uncomment the 'module.exports' code above.
+// Uncomment the 'module.exports' code above
+// and change the file name to 'connection.js' to connect.
