@@ -19,6 +19,5 @@ promptUser();
 
 const promptUser = () => {
     inquirer.prompt(questions)
-        .then((data) => handleAnswers(data))
+        .then((data) => handleAnswers(data));
 };
-
