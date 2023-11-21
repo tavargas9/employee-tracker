@@ -1,14 +1,7 @@
-const express = require('express');
 const db = require('./config/connection.js');
 const questions = require('./lib/questions.js');
 const inquirer = require('inquirer');
-
-const app = express();
-const PORT = process.env.PORT || 3001;
-
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-
+const handleAnswers = require('./lib/handleAnswers.js');
 
 db.connect(err => {
     if (err) throw err;
@@ -26,8 +19,6 @@ promptUser();
 
 const promptUser = () => {
     inquirer.prompt(questions)
-        .then((answers) => {
-            handleAnswers(answers);
-        })
+        .then((data) => handleAnswers(data))
 };
 
