@@ -24,6 +24,8 @@ To get started with Employee Tracker, you must have MySQL set up on your local m
 
 To see this app in action, check out the [Walkthrough Video!](https://drive.google.com/file/d/11-9osyjl51HVTF8k2GdeuLcU4JBYtKzh/view)
 
+<img width="673" alt="Screenshot 2024-01-19 at 12 23 54 PM" src="https://github.com/tavargas9/employee-tracker/assets/142061829/2c22948a-4371-4a1c-8a76-3903e931ab6e">
+
 To use this application, head to the command line an run ```npm start```. Through the terminal, you will now be able to View Employees, Departments, and Roles, and add/update each as needed. Follow the prompts!
 
 ## License 
