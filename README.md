@@ -12,7 +12,6 @@ This is a MySQL-based CLI database management tool. It allows users to manage a 
 - [Usage](#Usage)
 - [License](#License)
 - [Contributing](#Contributing)
-- [Tests](#Tests)
 - [Technologies Used](#Technologies-Used)
 - [Questions](#Questions)
 - [Credits](#Credits)
@@ -23,6 +22,8 @@ To get started with Employee Tracker, you must have MySQL set up on your local m
 
 ## Usage
 
+To see this app in action, check out the [Walkthrough Video!](https://drive.google.com/file/d/11-9osyjl51HVTF8k2GdeuLcU4JBYtKzh/view)
+
 To use this application, head to the command line an run ```npm start```. Through the terminal, you will now be able to View Employees, Departments, and Roles, and add/update each as needed. Follow the prompts!
 
 ## License 
@@ -32,10 +33,6 @@ This project is available under the MIT license. See [LICENSE](./LICENSE) for mo
 ## Contributing
 
 This project is open to contribution! To make any contributions, go ahead and fork the repo and create a new branch. Open a GitHub issue describing all updates/changes that you plan to make. When ready, push the changes to your branch and sumbit a pull request and wait for approval before merging.
-
-## Tests
-
-N/A
 
 ## Technologies Used
 
